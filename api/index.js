@@ -15,7 +15,7 @@ mongoose.connect(process.env.mongo).then (() => {
 });
 
 const __dirname = path.resolve();
-mongoose.connect("mongodb+srv://banothnaveen753:9390297612@cluster0.rkuu7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+// mongoose.connect("mongodb+srv://banothnaveen753:9390297612@cluster0.rkuu7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 const app = express(); // it gives lot of method to use
 app.use(express.json());
